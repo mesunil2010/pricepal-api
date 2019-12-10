@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+ - "7"
+services:
+  - mysql
+before_install:
+  - mysql -u root --password="" < tests/travis.sql
+install:
+  - npm install
+script:
+  - npm test
