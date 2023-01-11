@@ -43,7 +43,7 @@
     "jsonwebtoken": "^7.4.1",
     "jwt-decode": "^2.2.0",
     "kcors": "^2.0.0",
-    "knex": "^0.13.0",
+    "knex": "^2.4.0",
     "knex-filter": "^0.1.3",
     "koa": "^2.4.1",
     "koa-bodyparser": "^3.0.0",
